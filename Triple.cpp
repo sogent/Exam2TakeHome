@@ -45,8 +45,8 @@ Triple Triple::operator+(const Triple& rhs)const{
 }
 
 bool Triple::operator==(const Triple& rhs)const{
-    Triple result;
-    if((result.x==rhs.x)&&(result.y==rhs.y)&&(result.z==rhs.z)){
+
+    if((this->x==rhs.x)&&(this->y==rhs.y)&&(this->z==rhs.z)){
     return true;
 }else{
     return false;
